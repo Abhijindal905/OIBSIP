@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}
+<title>Register</title>
+{% endblock title %}
+
+
+
+{% block content %}
+
+
+
+
+<form id= "form1" method = "POST" action="{% url 'register' %}"> {% csrf_token %}
+  
+  {% if messages %}
+  <ul>
+    {% for message in messages %}
+      <li class="alert">{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %} 
+<div style = "justify-content:center; text-align:center;" class="mb-3">
+  
+  <h1>Register Here</h1>
+  <!-- <img class="back_image" src="{% static 'images/back.jpg'%}" alt=""> -->
+
+
+</div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">First name</label>
+      <input type="text" class="form-control"  name = "first_name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Last name</label>
+      <input type="text" class="form-control" name = "last_name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Username</label>
+      <input type="text" class="form-control"  name = "Username">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control"  name = "email">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" name = "password">
+    </div>
+    <div class="mb-3">
+      <button style="width: 100%;" type="submit" class="btn btn-success">Sign up</button>
+    </div>
+    <div style="display: flex; justify-content: center;" class="mb-3">
+      <p>Already have account??</p>
+      <a href="{% url 'login' %}">Sign in</a>
+    </div>
+      
+  </form>
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

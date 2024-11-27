@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: inline-flex;
+
+}
+.first{
+    height: 3.4rem;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.description0{
+    padding-right: 20px;
+    padding-left: 16px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+}
+.logo{
+    width: 43%;
+    height: 49%;
+}
+.description1{
+    display: flex;
+    gap: 25px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-left: 205px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    
+}
+select{
+    height: 25px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+}
+.description2{
+    display:flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 219px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+
+}
+.container1{
+    display: flex;
+    gap:68px; 
+    height: 500px; 
+    background-color: #61B1C0; 
+    justify-content: center;
+}
+.camera1{
+    height: 564px;
+    width: 965px;
+    padding-top: 40px;
+}
+.about{
+    mix-blend-mode: normal;
+    color: white;
+    font-family: sans-serif;
+    height: 35%;
+    padding-top: 187px;
+    padding-right: 285px;
+    color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+}
+#button1{
+    background-color: lime;
+    height: 40px;
+    width: 120px;
+    margin-top: 18px;
+}
+span{
+    height: 50%;
+}
+.same{
+    height: 300px;
+    width: 400px;
+    padding-top: 500px;
+    margin-bottom: 200px;
+   
+
+}
+.para{
+    font-size: 50px;
+    padding-left: 705px;
+    padding-top: 200px;
+
+    color:white;
+    
+
+    Font-weight: 500;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+
+    
+
+    
+}
+.picture{
+    margin-top: -400px;
+    padding-left: 391px;
+    height: 663px;
+
+}
+
+.details{
+    background-color: white; 
+    width: 100%; 
+    height: 433px;
+   
+
+}
+.details1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 301px;
+    padding-top: 108px;
+    padding-left: 104px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+}
+.details2{
+    display: flex;
+    gap: 206px;
+    padding-left: 526px;
+    padding-top: 14px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+}
+.details3{
+    display: flex;
+    gap: 316px;
+    padding-left: 549px;
+    padding-top: 14px;
+    height: 40px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    
+}
+.details_button{
+    padding: 12px;
+    background-color: green;
+    color: white;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+
+}
+.container3{
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 1800px;
+}
+.diff{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    font-size:40px;
+    
+
+}
+.groupimage{
+    height: 500px;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 50px;
+    mix-blend-mode: multiply;
+}
+.image9_details{
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    padding-left: 80px;
+}
+.para_details{
+    padding-top: 10px;
+    line-height: 18px;
+    color: transparent;
+    text-shadow: 0px 0px 0.1px rgba(1, 1, 1, 0.5);
+   
+}
+.groupimage1{
+    height: 700px;
+    width: 700px;
+    padding-top: 120px;
+
+    padding-left: 80px
+}
+.groupimage2{
+    height: 700px;
+    width: 700px;
+    padding-top: 50px;
+
+    padding-left: 320px
+}
+.one{
+    display: flex;
+}
+.groupimage1_details{
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    padding-left: 80px;
+    padding-top: 10px;
+    line-height: 18px;
+    color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+}
+.groupimage2_details{
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    padding-left: 320px;
+    padding-top: 10px;
+    line-height: 18px;
+    color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5); 
+}
+.container4{
+    height: 800px;
+    width: 100%;
+    background-color: #254250;
+}
+.container4_one{
+    color: white;
+    padding-top: 100px;
+}
+.container4_lines{
+    display: flex;
+    gap : 900px;
+    padding-left: 260px;
+    font-size: large;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    
+    
+}
+.add{
+   
+    display: flex;
+    gap : 250px;
+}
+.pictures{
+    padding-left: 140px;
+    padding-top: 20px;
+    
+}
+.pictures_image{
+    height: 400px;
+    
+}
+.pictures_image_details1{
+    
+    line-height: 30px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+}
+.pictures_image_details2{
+    color: transparent;
+    line-height: 16px;
+    font-family: 'suisseintl, helvetica, arial, sans-serif';
+    text-shadow: 0px 0px 0.5px rgba(255, 255, 255, 0.5); 
+}
+.container4_last{
+   text-align: center;
+}
+.container4_last_lines{
+    color: black;
+   padding-top: 140px;
+   font-size: 20px;
+    
+}
+.footer_image{
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.footer_details{
+    display: flex;
+    height: 400px;
+}
+.footer_items{
+    
+    height: 200px;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+.footer_details_first{
+    line-height: 23px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 80px;
+    color: transparent;
+  
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+}
+.footer_details_second{
+    line-height: 23px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: transparent;
+  
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+}
+.footer_icons{
+    padding-top: 13px;
+    height: 23px;
+    width: 23px;
+    padding-left: 10px;
+  
+}
+.footer_email{
+    border-radius: 20px;
+    width: 300px;
+    height: 45px;
+    border:1px solid rgb(166, 156, 156);
+    color: transparent;
+  
+    text-shadow: 0px 0px 0.5px rgba(1, 1, 1, 0.5);
+   
+}
+.email{
+    margin: 15px;
+    font-weight: bold;
+}
+.vl{
+    margin-top: 45px;
+    margin-left: 500px;
+    border-left: 3px solid rgb(181, 161, 161);
+    height: 300px;
+}

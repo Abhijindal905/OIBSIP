@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html body{
+    width: 100%;
+    height: 100vh;
+    background-color: #302C29;
+}
+
+.main{
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    padding-top: 2px;
+}
+
+.content{
+    display: inline-block;
+}
+
+#virat_image{
+    border-radius: 50%;
+}
+
+.content_head{
+    color: wheat;
+}
+
+.description{
+    color: white;
+    padding-left: 10px;
+    display: flex;
+    gap : 50px;
+}
+
+.left{
+    display: inline-block;
+}
+
+#headings{
+    color: rgb(238, 215, 87);
+}
+
+.right{
+    display: inline-block;
+}
+
+

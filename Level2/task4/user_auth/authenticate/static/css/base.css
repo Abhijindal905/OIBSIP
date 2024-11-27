@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #004C91;
+    
+}
+
+.back_image{
+    width: 100%;
+    height: 100vh;
+}
+
+#form1{
+    height: 640px;
+    background:white;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 9px;
+}
+
+form label{
+    color: black;
+}
+
+form input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form ul li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+form ul li.alert{
+    padding: 0;
+    margin: 0;
+}
+
+form ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 14px;
+}
+
+
+#form2{
+    height: 371px;
+    background:white;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 9px;
+}
+
+.Dashboard{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 500px;
+    height: 60px;
+    color: wheat;
+    background-color: black;
+}
+

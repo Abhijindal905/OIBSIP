@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/background.jpg');
+}
+#cont_heading{
+    padding-top: 9px;
+}
+.container{
+    width: 500px;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius:19px;
+}
+
+.box{
+    line-height: 40px;
+}
+
+#toUnit{
+    width: 448px;
+    height: 30px;
+}
+
+#fromUnit{
+    
+    width: 448px;
+    height: 30px;
+    
+}
+
+#temperature{
+    width: 448px;
+    height: 30px;
+}
+
+#result{
+    width: 448px;
+    height: 30px;
+}
+
+#convert_btn{
+    height: 38px;
+    width: 448px;
+}
